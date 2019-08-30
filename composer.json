@@ -1,0 +1,23 @@
+{
+    "name": "weather/parser",
+    "authors": [
+        {
+            "name": "Александр Анисимов",
+            "email": "sanchezgeek@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": [
+                "./"
+            ]
+        }
+    },
+    "require": {
+        "codeception/codeception": "2.3.*",
+        "vlucas/phpdotenv": "2.4.0",
+        "symfony/http-client": "^4.3",
+        "symfony/serializer": "^4.3",
+        "symfony/property-access": "^4.3"
+    }
+}
